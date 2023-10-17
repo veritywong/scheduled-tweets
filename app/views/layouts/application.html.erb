@@ -13,6 +13,11 @@
   </head>
 
   <body>
+  <%
+=begin%>
+ #called partial because it's not a full template, it's rendering a portion of the page 
+<%
+=end%>
   <%= render partial: "shared/navbar" %>
     <div class="container">
       <%= render partial: "shared/flash" %>
